@@ -1,6 +1,6 @@
 {
   "name": "@liyanjie2048/capacitor-alipay",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "description": "Alipay plugin for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -74,5 +74,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "publishConfig": {
+      "registry": "https://npm.pkg.github.com/liyanjie2048"
   }
 }
