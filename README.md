@@ -85,6 +85,7 @@ openAuth(options: AlipayAuthOptions) => Promise<AlipayAuthResult>
 | Prop          | Type                |
 | ------------- | ------------------- |
 | **`payInfo`** | <code>string</code> |
+| **`scheme`**  | <code>string</code> |
 
 
 #### AlipayAuthResult
@@ -101,5 +102,6 @@ openAuth(options: AlipayAuthOptions) => Promise<AlipayAuthResult>
 | Prop           | Type                |
 | -------------- | ------------------- |
 | **`authInfo`** | <code>string</code> |
+| **`scheme`**   | <code>string</code> |
 
 </docgen-api>

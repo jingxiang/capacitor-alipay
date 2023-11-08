@@ -15,11 +15,13 @@ export class AlipayWeb extends WebPlugin implements AlipayPlugin {
     }
     async openPay(options: AlipayPayOptions): Promise<AlipayPayResult> {
         console.log(options);
+        console.log('Alipay plugin for Capacitor: not supported on web.');
         return { resultStatus: '0', result: '' };
     }
 
     async openAuth(options: AlipayAuthOptions): Promise<AlipayAuthResult> {
         console.log(options);
+        console.log('Alipay plugin for Capacitor: not supported on web.');
         return { resultStatus: '0', result: '' };
     }
 }

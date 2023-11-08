@@ -1,6 +1,6 @@
 {
   "name": "@liyanjie2048/capacitor-alipay",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "Alipay plugin for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

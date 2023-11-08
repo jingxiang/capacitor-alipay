@@ -6,6 +6,7 @@ export interface AlipayPlugin {
 
 export interface AlipayPayOptions {
     payInfo: string;
+    scheme: string;
 }
 export interface AlipayPayResult {
     resultStatus: string;
@@ -14,6 +15,7 @@ export interface AlipayPayResult {
 }
 export interface AlipayAuthOptions {
     authInfo: string;
+    scheme: string;
 }
 export interface AlipayAuthResult {
     resultStatus: string;
